@@ -1,10 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
-import SEO from "../components/seo"
+import { Container, NavBar } from '../components'
+import '../index.css'
 
 const IndexPage = () => (
   <>
-    <SEO title="Home" />
+    <Container backgroundColor="#fff">
+      <NavBar />
+    </Container>
   </>
 )
 
