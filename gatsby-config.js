@@ -10,6 +10,10 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-anchor-links`,
+    `gatsby-plugin-transition-link`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -17,8 +21,6 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -35,7 +37,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Lato\: 100, 100i, 300, 300i, 400, 400i, 700, 700i, 900, 900i`,
+          `Lato\: 100,100i,300,300i,400,400i,700,700i,900,900i`,
+          `Belleza`
         ],
         display: 'swap'
       }

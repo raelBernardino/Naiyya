@@ -1,2 +1,5 @@
-export * from './styled'
+export * from './atoms'
 export * from './Nav'
+export * from './Home'
+export * from './Footer'
+export * from './About'
